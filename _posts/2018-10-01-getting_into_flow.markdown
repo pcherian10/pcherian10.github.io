@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Getting into Flow"
-date:       2018-10-01 16:07:23 +0000
+date:       2018-10-01 12:07:24 -0400
 permalink:  getting_into_flow
 ---
 
@@ -14,7 +14,7 @@ In my first brushes with programming, I was only somewhat conscious of where my 
 
 Over the past few months, I've experimented somewhat extensively on the things that actually get me the most focus. While I won't provide a detailed breakdown of the trial and error process, I will provide the things that currently work for me and this is essentially my routine/ritual or the "ON" button. I will say that this works best for me when I've been eating healthy, exercising and getting a decent amount of sleep (6+ hours).  These are the things I do after finding a comfortable seat and a good work environment (i.e in a coffee shop or a WeWork). Headphones are a must. 
 
-1. First, I open up Spotify and listen to one of two playlists. [This](https://open.spotify.com/playlist/5SgJR30RfzR5hO21TsQhBp), if you're in a lower energy state and need to get up higher or [this](http://https://open.spotify.com/playlist/41QjOoffs3nC7bKb2QvbDx), if you're in a higher energy state and need to come down a bit before starting. They're both great for background music.
+1. First, I open up Spotify and listen to one of two playlists. [This](https://open.spotify.com/playlist/5SgJR30RfzR5hO21TsQhBp), if you're in a lower energy state and need to get up higher or [this](https://open.spotify.com/playlist/41QjOoffs3nC7bKb2QvbDx), if you're in a higher energy state and need to come down a bit before starting. They're both great for background music.
 
 2. Get your hands on a [Pomodoro Timer App](http://https://chrome.google.com/webstore/detail/focusme-a-pomodoro-timer/koebbleaefghpjjmghelhjboilcmfpad?hl=en) and turn this on. The default setting is 25 minutes, but I actually prefer it to be closer to 15 or 20 minutes, especially during the first few rounds. This app is also great because it comes with a website blocker that you can turn on and turn off. Once you fill your block list, it automatically disables websites when you are in a work interval.
 
