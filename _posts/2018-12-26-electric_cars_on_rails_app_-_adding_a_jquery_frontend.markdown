@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Electric Cars on Rails App - Adding a JQuery Frontend"
-date:       2018-12-26 23:07:54 +0000
+date:       2018-12-26 18:07:54 -0500
 permalink:  electric_cars_on_rails_app_-_adding_a_jquery_frontend
 ---
 
@@ -54,8 +54,7 @@ Serializers were used to ensure that key Model relationships were maintained. It
   attributes :id, :start_date, :end_date, :car
   belongs_to :user
   belongs_to :car
-
-end`
+	end`
 
 This was also a key piece of code that allowed for the JSON to be created and structured properly with ease.
 
