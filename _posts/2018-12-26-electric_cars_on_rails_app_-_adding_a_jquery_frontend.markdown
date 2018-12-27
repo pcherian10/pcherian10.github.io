@@ -6,7 +6,7 @@ permalink:  electric_cars_on_rails_app_-_adding_a_jquery_frontend
 ---
 
 
-The next step toward modernizing the app was the addition of a Javascript front-end. I used JQuery to save time in creating the app as well as improving the readability of the code. The main change atleast with regard to optics was condensing the app's functionality into one view and one controller as a result of using AJAX. Lastly, implementing  the `respond_to` feature to convert backend Rails data to the JSON format, was integral to the communication between the frontend and backend. [Here](https://github.com/pcherian10/electric-car-rentals-rails-project-v-000/tree/jquery-frontend) is the current project under development. 
+The next step toward modernizing the app was the addition of a Javascript front-end. I used JQuery to save time in creating the app as well as improving the readability of the code. The main change atleast with regard to optics was condensing the app's functionality into one view and one controller as a result of using AJAX. Lastly, implementing  the `respond_to` feature to convert backend Rails data to the JSON format, was integral to the communication between the frontend and backend. You can view the current project [here](https://github.com/pcherian10/electric-car-rentals-rails-project-v-000/tree/jquery-frontend). 
 
 The main view of the app is the `users/show` page, while the asset pipeline houses the `electric-cars.js` and `application.css` files which are used to render the frontend. The backend remains mostly the same, with the exception of `serializer` files, creation of new form partials and modifications to the `bookings_controller`
 
@@ -14,7 +14,7 @@ The main view of the app is the `users/show` page, while the asset pipeline hous
 
 ### AJAX
 
-From using several views and routes, I was able to switch to use just one view and one route,  thanks to using JS and AJAX. AJAX allows for sending `GET`, `POST` and `PUT` / `PATCH` requests to the server and retreive and show the information in the current view while in the same route. In the previous Rails app, I had redirects to each view, but with AJAX, I just had each form render in specific `<div>'s` wrappers and segments, initiated by the respective buttons on the page. A typical page 
+From using several views and routes, I was able to switch to use just one view and one route,  thanks to using JS and AJAX. AJAX allows for sending `GET`, `POST` and `PUT` / `PATCH` requests to the server and retreive and show the information in the current view while in the same route. In the previous Rails app, I had redirects to each view, but with AJAX, I just had each form render in specific `<div>'s` wrappers and segments, initiated by the respective buttons on the page.
 
 
 ### Prototype
