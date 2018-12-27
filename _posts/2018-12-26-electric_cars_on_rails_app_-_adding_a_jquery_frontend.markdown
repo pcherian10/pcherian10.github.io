@@ -21,7 +21,7 @@ From using several views and routes, I was able to switch to use just one view a
 
 Using JS model objects helped make form rendering more abstract. Specifically, this facilitated reliable rendering of bookings list everytime, a new bookng was created, or if an existing booking was updated (or deleted). By simply calling `createUserDetailsHTML` on a`UserDetails` object, the form was rendered. A UserDetails object has all the information of the user i.e, the cars and bookings tied to him/her. The attribute of `bookings` were used to generate the form for the View/Edit Bookings button.
 
-> `class UserDetails {
+> ```class UserDetails {
 	constructor(obj) {
 		this.userName = obj.name
 		this.bookings = obj.bookings
@@ -31,14 +31,14 @@ Using JS model objects helped make form rendering more abstract. Specifically, t
 
 Then function was defined for the prototype per the below.
 
->`UserDetails.prototype.createUserDetailsHTML = function () {}`
+>```UserDetails.prototype.createUserDetailsHTML = function () {}`
 
 
 ### Setting Up and Consuming JSON
 
 This was my first brush at creating, using and consuming JSON. The main driver of creating JSON was the following code:
 
->`respond_to do |f|
+>```respond_to do |f|
         f.html {redirect_to user_path(@booking.user)}
         f.json {render :json => @booking.user}
       end`
@@ -50,7 +50,7 @@ This was used in the `bookings_controller`, where it retreived data from the tab
 
 Serializers were used to ensure that key Model relationships were maintained. It's simple to set up and ensures that JSON data is properly structured, specifically with regard to key: value relationships and nested keys within objects.
 
-> `class BookingSerializer < ActiveModel::Serializer
+> ```class BookingSerializer < ActiveModel::Serializer
   attributes :id, :start_date, :end_date, :car
   belongs_to :user
   belongs_to :car
